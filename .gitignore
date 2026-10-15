@@ -48,3 +48,7 @@ next-env.d.ts
 /*.txt
 /cover-letter-*.md
 /application-*.md
+
+# CV generator scripts + resume stay local only
+/scripts/
+/public/resume.pdf
