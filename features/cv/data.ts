@@ -53,7 +53,7 @@ export function defaultCvData(): CvData {
     email: "eniolabadmus351@gmail.com",
     phone: "+234 814 643 8621",
     location: "Nigeria",
-    website: "badmuseniola.vercel.app",
+    website: "badmus-eniola.vercel.app",
     github: "github.com/somod-gif",
     linkedin: "linkedin.com/in/badmus-eniola001",
     summary: [
