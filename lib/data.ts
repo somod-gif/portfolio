@@ -333,7 +333,7 @@ export const channels: Channel[] = [
     title: "LinkedIn",
     description: "Connect professionally",
     action: "Connect",
-    href: "https://linkedin.com/in/badmus-eniola",
+    href: "https://linkedin.com/in/badmus-eniola001",
   },
   {
     icon: Twitter,
@@ -374,7 +374,7 @@ export const footerSocials = [
   {
     icon: Linkedin,
     title: "LinkedIn",
-    href: "https://linkedin.com/in/badmus-eniola",
+    href: "https://linkedin.com/in/badmus-eniola001",
   },
   {
     icon: Twitter,
