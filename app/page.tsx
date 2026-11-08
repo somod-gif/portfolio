@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Hero } from "@/features/hero/hero";
+import { TechStack } from "@/components/tech-stack";
 import { Skills } from "@/features/skills/skills";
 import { ExperienceTimeline } from "@/features/experience/experience-timeline";
 import { ProjectCard } from "@/features/projects/project-card";
@@ -20,6 +21,8 @@ export default function HomePage() {
   return (
     <div className="pb-24">
       <Hero />
+
+      <TechStack />
 
       <Skills />
 

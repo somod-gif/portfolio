@@ -6,11 +6,13 @@ export function SectionHeading({
   title,
   description,
   className,
+  id,
 }: {
   eyebrow: string;
   title: string;
   description?: string;
   className?: string;
+  id?: string;
 }) {
   return (
     <div className={cn("max-w-2xl", className)}>
@@ -20,7 +22,10 @@ export function SectionHeading({
         </p>
       </Reveal>
       <Reveal delay={0.05}>
-        <h2 className="text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
+        <h2
+          id={id}
+          className="scroll-mt-28 text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl"
+        >
           {title}
         </h2>
       </Reveal>
